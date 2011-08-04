@@ -4,11 +4,13 @@ I often come across in my JS application that there are a lots of configuration 
 # How to use
 ## Create a new config object
 Without parameters
+
 `var config = new JSConfigurator('default', {});`
 
 With some default parameters
-`var config = new JSConfigurator('default', {
-  loaderImageUrl:  '/images/loader.gif',
-  ajaxRefreshTime: 1000
-});`
+
+`var config = new JSConfigurator('default', {`
+` loaderImageUrl:  '/images/loader.gif',`
+` ajaxRefreshTime: 1000`
+`});`
 
