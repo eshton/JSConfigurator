@@ -9,8 +9,14 @@ Without parameters
 
 With some default parameters
 
-    var config = new JSConfigurator('default', {`
+    var config = new JSConfigurator('default', {
      loaderImageUrl:  '/images/loader.gif',
      ajaxRefreshTime: 1000
     });
 
+## Add some parameters to a namespace
+
+    config.putMore({
+        loaderImageUrl:  '/images/loader2.gif',
+        ajaxRefreshTime: 2000
+    }, 'something');
